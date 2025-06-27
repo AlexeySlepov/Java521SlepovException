@@ -12,6 +12,8 @@ public class TaskTwo {
             System.out.println("Введите дату в формате 'год-месяц-день' (например, 2022-01-31):");
             String input = scanner.nextLine();
 
+            // For the test
+
             try {
                 date = LocalDate.parse(input);
                 isValid = true;
